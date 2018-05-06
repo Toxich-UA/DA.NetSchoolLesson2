@@ -162,6 +162,11 @@ namespace Lesson2
                 }
 
             }
+            else
+            {
+                Directory.CreateDirectory(inputFilePath);
+                Console.WriteLine($"Please place operations files in {inputFilePath} folder.");
+            }
         }
     }
 }
